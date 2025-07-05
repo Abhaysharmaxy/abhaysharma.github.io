@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhay Sharma | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1e293b;
+      text-align: center;
+      padding: 2rem 1rem;
+      overflow: hidden;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      animation: scrollTitle 10s linear infinite;
+    }
+    @keyframes scrollTitle {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+    .project, .experience {
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      perspective: 1000px;
+    }
+    .project:hover, .experience:hover {
+      transform: rotateY(4deg) scale(1.03);
+      box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #1e293b;
+      color: #94a3b8;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abhay Sharma</h1>
+    <p>Aspiring Android Developer | B.Sc. CS Graduate | Digital Trainee at Finacus Solutions</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m a Computer Science graduate from the University of Mumbai, currently working as a Digital Trainee at Finacus Solutions. I enjoy building mobile apps and working with technologies like Python, Java, Firebase, and Android Studio. I'm passionate about growing in the Android development space.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <p><strong>Languages:</strong> Java, Python, HTML, SQL</p>
+    <p><strong>Tools:</strong> Android Studio, Firebase, Git, VS Code</p>
+    <p><strong>Soft Skills:</strong> Leadership, Problem Solving, Time Management</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>ImageStoreRetrieve (Android App)</h3>
+      <p>Firebase-based app to store and retrieve images.</p>
+    </div>
+    <div class="project">
+      <h3>Gesture Flow Controller (Python)</h3>
+      <p>Gesture recognition using MediaPipe and Python.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="experience">
+      <h3>Finacus Solutions Pvt. Ltd.</h3>
+      <p><em>Digital Trainee – Implementation (Jul 2025 – Present)</em></p>
+      <p>Support banking software implementation, client onboarding, UAT, and issue resolution.</p>
+    </div>
+    <div class="experience">
+      <h3>Kandivali Connect</h3>
+      <p><em>Data Analyst Intern (May 2024 – Jun 2024)</em></p>
+      <p>Worked on Excel & SQL to gather and interpret business data.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>B.Sc. in Computer Science</strong>, University of Mumbai – 2025</p>
+    <p>Thakur Shyamnarayan Degree College</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:abhaysharma20052005@gmail.com">abhaysharma20052005@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/abhay-sharma-1a6395250" target="_blank">abhay-sharma-1a6395250</a></p>
+    <p>GitHub: <a href="https://github.com/abhaysharma" target="_blank">github.com/abhaysharma</a></p>
+  </section>
+
+  <footer>
+    © 2025 Abhay Sharma. All rights reserved.
+  </footer>
+</body>
+</html>
